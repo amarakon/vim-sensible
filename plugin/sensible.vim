@@ -1,5 +1,7 @@
 " Default settings
-set fileencoding=utf-8 title number relativenumber numberwidth=1 foldlevel=1 mouse=a listchars=tab:──,space:· list cursorline tabstop=4 softtabstop=-1 shiftwidth=0 smartindent termbidi colorcolumn=+1
+set fileencoding=utf-8 title number relativenumber numberwidth=1 foldlevel=1
+set mouse=a listchars=tab:──,space:· list cursorline tabstop=4 softtabstop=-1
+set shiftwidth=0 smartindent termbidi colorcolumn=+1
 let &titlestring = "Neovim – %t%( %m%)"
 
 autocmd filetype diff set nolist " No marking of tab and space characters
