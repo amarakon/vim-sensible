@@ -1,11 +1,9 @@
 ---
 title: Neovim Sensible
 output: amaryaml::github
-always_allow_html: true
 ---
 ```{r, setup, include = FALSE}
 library(knitr)
-library(kableExtra)
 opts_chunk$set(echo = FALSE, cache = TRUE)
 ```
 
@@ -58,8 +56,7 @@ mapping = c("Omni complete", "Line complete")
 
 completion = data.frame(mode, key, mapping)
 
-kable(completion, col.name = c("Mode", "Key", "Mapping")) |>
-	column_spec(2, monospace = TRUE)
+kable(completion, col.name = c("Mode", "Key", "Mapping"))
 ```
 
 ### Clipboard
@@ -73,8 +70,7 @@ mapping = c("Copy file contents to clipboard", "Paste from clipboard",
 
 clipboard = data.frame(mode, key, mapping)
 
-kable(clipboard, col.name = c("Mode", "Key", "Mapping")) |>
-	column_spec(2, monospace = TRUE)
+kable(clipboard, col.name = c("Mode", "Key", "Mapping"))
 ```
 
 ### Movement
@@ -89,6 +85,5 @@ mapping = c("Go up even when a completion menu is visible",
 
 movement = data.frame(mode, key, mapping)
 
-kable(movement, col.name = c("Mode", "Key", "Mapping")) |>
-	column_spec(2, monospace = TRUE)
+kable(movement, col.name = c("Mode", "Key", "Mapping"))
 ```

@@ -69,7 +69,7 @@ Mapping
 <td style="text-align:left;">
 Insert
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Control-Space
 </td>
 <td style="text-align:left;">
@@ -80,7 +80,7 @@ Omni complete
 <td style="text-align:left;">
 Insert
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Control-L
 </td>
 <td style="text-align:left;">
@@ -111,7 +111,7 @@ Mapping
 <td style="text-align:left;">
 Normal
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Control-Y
 </td>
 <td style="text-align:left;">
@@ -122,7 +122,7 @@ Copy file contents to clipboard
 <td style="text-align:left;">
 Normal
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Control-P
 </td>
 <td style="text-align:left;">
@@ -133,7 +133,7 @@ Paste from clipboard
 <td style="text-align:left;">
 Visual
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Shift-Y
 </td>
 <td style="text-align:left;">
@@ -144,7 +144,7 @@ Copy to clipboard
 <td style="text-align:left;">
 Visual
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Shift-D
 </td>
 <td style="text-align:left;">
@@ -175,7 +175,7 @@ Mapping
 <td style="text-align:left;">
 Insert
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Up
 </td>
 <td style="text-align:left;">
@@ -186,7 +186,7 @@ Go up even when a completion menu is visible
 <td style="text-align:left;">
 Insert
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Down
 </td>
 <td style="text-align:left;">
@@ -197,7 +197,7 @@ Go down even when a completion menu is visible
 <td style="text-align:left;">
 Insert
 </td>
-<td style="text-align:left;font-family: monospace;">
+<td style="text-align:left;">
 Return
 </td>
 <td style="text-align:left;">
