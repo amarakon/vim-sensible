@@ -87,3 +87,17 @@ movement = data.frame(mode, key, mapping)
 
 kable(movement, col.name = c("Mode", "Key", "Mapping"))
 ```
+
+# Installation
+
+## Vim
+
+```sh
+`# user` git clone https://github.com/amarakon/nvim-sensible ~/.vim/pack/vendor/start/nvim-sensible
+```
+
+## Neovim
+
+```sh
+`# user` git clone https://github.com/amarakon/nvim-sensible ~/.local/share/nvim/site/pack/default/start/nvim-sensible
+```
