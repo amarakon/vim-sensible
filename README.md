@@ -43,7 +43,8 @@ and Neovim Sensible.
 ### Auto-commands
 
 -   disable marking tab and space characters for `diff` files
--   disable spell-checking (if it is enabled) for `diff` files
+-   disable spell-checking (if it is enabled) for `diff` and `ebuild`
+    files
 -   set the `textwidth` to 50 for `gitcommit` files
 -   start `gitcommit` files in insert mode
 -   enable 24-bit colours if the terminal supports it

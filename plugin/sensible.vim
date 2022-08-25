@@ -2,8 +2,8 @@
 set fileencoding=utf-8 title number relativenumber numberwidth=1 foldlevel=1 mouse=a listchars=tab:──,space:· list cursorline tabstop=4 softtabstop=-1 shiftwidth=0 smartindent termbidi colorcolumn=+1
 let &titlestring = "Neovim – %t%( %m%)"
 
-" Do not mark whitespace characters or check spelling for the `diff` file type
-autocmd filetype diff set nolist nospell
+autocmd filetype diff set nolist " No marking of tab and space characters
+autocmd filetype diff,ebuild set nospell " No spell-cheking
 " Set the text width for the `gitcommit` file type and start in insert mode
 autocmd filetype gitcommit set textwidth=50 | startinsert
 
