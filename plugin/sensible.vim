@@ -5,7 +5,7 @@ set shiftwidth=0 smartindent termbidi colorcolumn=+1
 let &titlestring = "Neovim – %t%( %m%)"
 
 autocmd filetype diff set nolist " No marking of tab and space characters
-autocmd filetype diff,ebuild set nospell " No spell-cheking
+autocmd filetype diff,ebuild set nospell " No spell-checking
 " Set the text width for the `gitcommit` file type and start in insert mode
 autocmd filetype gitcommit set textwidth=50 | startinsert
 
