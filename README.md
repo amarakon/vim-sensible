@@ -28,17 +28,30 @@ and Neovim Sensible.
 ### Settings
 
 -   file encoding is set to UTF-8
+
 -   window title is enabled
+
 -   line numbering (`number` and `relativenumber`) is enabled
+
 -   `numberwidth` and `foldlevel` are set to 1
+
 -   mouse is for Vim and not the terminal
+
 -   tabs and spaces are shown with a character
+
 -   `cursorline` is enabled
+
 -   the default indentation level is set to 4 instead of 8
+
 -   `smartindent` is enabled
+
 -   `termbidi` is enabled for right-to-left language writers
+
 -   `colorcolumn` is set to equal `textwidth` + 1
+
 -   default `titlestring` is `"Neovim – %t%( %m%)"`
+
+-   do not show the hideous netrw banner
 
 ### Auto-commands
 

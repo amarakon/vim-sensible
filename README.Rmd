@@ -34,7 +34,9 @@ If you use Vim, I recommend installing both vim-sensible and Neovim Sensible.
 - `smartindent` is enabled
 - `termbidi` is enabled for right-to-left language writers
 - `colorcolumn` is set to equal `textwidth` + 1
--  default `titlestring` is `"Neovim – %t%( %m%)"`
+- default `titlestring` is `"Neovim – %t%( %m%)"`
+
+- do not show the hideous netrw banner
 
 ## Auto-commands
 
