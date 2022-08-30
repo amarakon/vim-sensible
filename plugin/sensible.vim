@@ -15,9 +15,7 @@ autocmd filetype gitcommit set textwidth=50 | startinsert
 if $COLORTERM == "truecolor" | set termguicolors | endif
 
 " Set the `spelllang` to the locale’s language if it is set
-if $LANG != ''
-	let &spelllang = tolower(trim(trim($LANG, ".utf8"), ".iso88591"))
-endif
+if $LANG != '' | let &spelllang = tolower($LANG[0:4]) | endif
 
 " Use `Control-Space` for omni completion
 inoremap <c-space> <c-x><c-o>
