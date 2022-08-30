@@ -9,7 +9,7 @@ let g:netrw_banner = 0 " Do not show the hideous netrw banner
 autocmd filetype diff set nolist " No marking of tab and space characters
 autocmd filetype diff,ebuild set nospell " No spell-checking
 " Set the text width for the `gitcommit` file type and start in insert mode
-autocmd filetype gitcommit set textwidth=50 | startinsert
+autocmd filetype gitcommit set textwidth=72 colorcolumn=51,73 | startinsert
 
 " Enable `termguicolors` if the terminal supports it
 if $COLORTERM == "truecolor" | set termguicolors | endif
