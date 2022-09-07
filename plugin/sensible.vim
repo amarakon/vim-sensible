@@ -23,8 +23,8 @@ inoremap <c-space> <c-x><c-o>
 inoremap <c-l> <c-x><c-l>
 
 " Clipboard keybindings
-nnoremap <c-y> <cmd>silent !xclip -r -i -selection clipboard %<return>
-nnoremap <c-p> "+p
+nnoremap <leader>y <cmd>silent !xclip -r -i -selection clipboard %<return>
+nnoremap <leader>p "+p
 vnoremap Y "+y
 vnoremap D "+d
 

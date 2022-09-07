@@ -67,162 +67,27 @@ and Neovim Sensible.
 
 #### Completion
 
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">
-Mode
-</th>
-<th style="text-align:left;">
-Key
-</th>
-<th style="text-align:left;">
-Mapping
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Insert
-</td>
-<td style="text-align:left;">
-Control-Space
-</td>
-<td style="text-align:left;">
-Omni complete
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Insert
-</td>
-<td style="text-align:left;">
-Control-L
-</td>
-<td style="text-align:left;">
-Line complete
-</td>
-</tr>
-</tbody>
-</table>
+| Mode   | Key           | Mapping       |
+|:-------|:--------------|:--------------|
+| Insert | Control-Space | Omni complete |
+| Insert | Control-L     | Line complete |
 
 #### Clipboard
 
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">
-Mode
-</th>
-<th style="text-align:left;">
-Key
-</th>
-<th style="text-align:left;">
-Mapping
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Normal
-</td>
-<td style="text-align:left;">
-Control-Y
-</td>
-<td style="text-align:left;">
-Copy file contents to clipboard
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Normal
-</td>
-<td style="text-align:left;">
-Control-P
-</td>
-<td style="text-align:left;">
-Paste from clipboard
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Visual
-</td>
-<td style="text-align:left;">
-Shift-Y
-</td>
-<td style="text-align:left;">
-Copy to clipboard
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Visual
-</td>
-<td style="text-align:left;">
-Shift-D
-</td>
-<td style="text-align:left;">
-Cut to clipboard
-</td>
-</tr>
-</tbody>
-</table>
+| Mode   | Key      | Mapping                         |
+|:-------|:---------|:--------------------------------|
+| Normal | Leader-Y | Copy file contents to clipboard |
+| Normal | Leader-P | Paste from clipboard            |
+| Visual | Shift-Y  | Copy to clipboard               |
+| Visual | Shift-D  | Cut to clipboard                |
 
 #### Movement
 
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">
-Mode
-</th>
-<th style="text-align:left;">
-Key
-</th>
-<th style="text-align:left;">
-Mapping
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Insert
-</td>
-<td style="text-align:left;">
-Up
-</td>
-<td style="text-align:left;">
-Go up even when a completion menu is visible
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Insert
-</td>
-<td style="text-align:left;">
-Down
-</td>
-<td style="text-align:left;">
-Go down even when a completion menu is visible
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Insert
-</td>
-<td style="text-align:left;">
-Return
-</td>
-<td style="text-align:left;">
-Return even when a completion menu is visible
-</td>
-</tr>
-</tbody>
-</table>
+| Mode   | Key    | Mapping                                        |
+|:-------|:-------|:-----------------------------------------------|
+| Insert | Up     | Go up even when a completion menu is visible   |
+| Insert | Down   | Go down even when a completion menu is visible |
+| Insert | Return | Return even when a completion menu is visible  |
 
 ## Installation
 

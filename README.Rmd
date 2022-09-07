@@ -65,7 +65,7 @@ kable(completion, col.name = c("Mode", "Key", "Mapping"))
 
 ```{r, clipboard}
 mode = c("Normal", "Normal", "Visual", "Visual")
-key = c("Control-Y", "Control-P", "Shift-Y", "Shift-D")
+key = c("Leader-Y", "Leader-P", "Shift-Y", "Shift-D")
 mapping = c("Copy file contents to clipboard", "Paste from clipboard",
 			"Copy to clipboard", "Cut to clipboard"
 )
