@@ -3,14 +3,14 @@ Neovim Sensible
 
 ## Contents
 
--   [Introduction](#introduction)
--   [Changes](#changes)
-    -   [Settings](#settings)
-    -   [Auto-commands](#auto-commands)
-    -   [Mappings](#mappings)
--   [Installation](#installation)
-    -   [Vim](#vim)
-    -   [Neovim](#neovim)
+-   <a href="#introduction" id="toc-introduction">Introduction</a>
+-   <a href="#changes" id="toc-changes">Changes</a>
+    -   <a href="#settings" id="toc-settings">Settings</a>
+    -   <a href="#auto-commands" id="toc-auto-commands">Auto-commands</a>
+    -   <a href="#mappings" id="toc-mappings">Mappings</a>
+-   <a href="#installation" id="toc-installation">Installation</a>
+    -   <a href="#vim" id="toc-vim">Vim</a>
+    -   <a href="#neovim" id="toc-neovim">Neovim</a>
 
 ## Introduction
 
@@ -27,17 +27,15 @@ and Neovim Sensible.
 
 ### Settings
 
--   file encoding is set to UTF-8
-
 -   window title is enabled
+
+-   default `titlestring` is `"Neovim – %t%( %m%)"`
 
 -   line numbering (`number` and `relativenumber`) is enabled
 
--   `numberwidth` and `foldlevel` are set to 1
+-   `foldenable` is disabled
 
 -   mouse is for Vim and not the terminal
-
--   tabs and spaces are shown with a character
 
 -   `cursorline` is enabled
 
@@ -47,9 +45,7 @@ and Neovim Sensible.
 
 -   `termbidi` is enabled for right-to-left language writers
 
--   `colorcolumn` is set to equal `textwidth` + 1
-
--   default `titlestring` is `"Neovim – %t%( %m%)"`
+-   `colorcolumn` is set to `textwidth` + 1
 
 -   do not show the hideous netrw banner
 
@@ -58,7 +54,8 @@ and Neovim Sensible.
 -   disable marking tab and space characters for `diff` files
 -   disable spell-checking (if it is enabled) for `diff` and `ebuild`
     files
--   set the `textwidth` to 50 for `gitcommit` files
+-   set the `textwidth` to 72 for `gitcommit` files
+-   set two `colorcolumn`s for `gitcommit`: 51 and 73
 -   start `gitcommit` files in insert mode
 -   enable 24-bit colours if the terminal supports it
 -   set the spell-checker language to the locale’s default language
@@ -94,11 +91,11 @@ and Neovim Sensible.
 ### Vim
 
 ``` sh
-`# user` git clone https://github.com/amarakon/nvim-sensible ~/.vim/pack/vendor/start/nvim-sensible
+`# user` git clone https://github.com/amarakon/vim-sensible ~/.vim/pack/vendor/start/vim-sensible
 ```
 
 ### Neovim
 
 ``` sh
-`# user` git clone https://github.com/amarakon/nvim-sensible ~/.local/share/nvim/site/pack/default/start/nvim-sensible
+`# user` git clone https://github.com/amarakon/vim-sensible ~/.local/share/nvim/site/pack/default/start/vim-sensible
 ```

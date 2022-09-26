@@ -1,9 +1,10 @@
 " Default settings
-set fileencoding=utf-8 title number relativenumber numberwidth=1 nofoldenable
-set mouse=a listchars=tab:\|─,multispace:·,trail:·,nbsp:◦ list cursorline tabstop=4 softtabstop=-1
-set shiftwidth=0 smartindent termbidi colorcolumn=+1
+set title number relativenumber numberwidth=1 nofoldenable mouse=a cursorline
+set tabstop=4 shiftwidth=0 smartindent termbidi colorcolumn=+1 smartindent
+set termbidi colorcolumn=+1
 let &titlestring = "Neovim – %t%( %m%)"
 
+" Global settings
 let g:netrw_banner = 0 " Do not show the hideous netrw banner
 
 autocmd filetype diff set nolist " No marking of tab and space characters
@@ -15,7 +16,8 @@ autocmd filetype gitcommit set textwidth=72 colorcolumn=51,73 | startinsert
 if $COLORTERM == "truecolor" | set termguicolors | endif
 
 " Set the `spelllang` to the locale’s language if it is set
-if $LANG != '' | let &spelllang = tolower($LANG[0:4]) | endif
+let lang = tolower($LANG[0:4])
+if index([ "", lang ], $LANG) < 0 | let &spelllang = lang | endif
 
 " Use `Control-Space` for omni completion
 inoremap <c-space> <c-x><c-o>
