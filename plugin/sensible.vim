@@ -1,6 +1,6 @@
 " Default settings
-set title number relativenumber numberwidth=1 nofoldenable mouse=a cursorline
-set tabstop=4 shiftwidth=0 smartindent termbidi colorcolumn=+1 smartindent
+set title number relativenumber numberwidth=1 nofoldenable mouse=nvi cursorline
+set tabstop=4 shiftwidth=0 smartindent termbidi colorcolumn=+1
 set termbidi colorcolumn=+1
 let &titlestring = "Neovim – %t%( %m%)"
 
@@ -34,4 +34,3 @@ vnoremap D "+d
 " completion menu is visible
 inoremap <expr> <up> pumvisible() ? "<c-e><up>" : "<up>"
 inoremap <expr> <down> pumvisible() ? "<c-e><down>" : "<down>"
-inoremap <expr> <return> pumvisible() ? "<c-e><return>" : "<return>"

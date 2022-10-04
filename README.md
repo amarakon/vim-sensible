@@ -80,11 +80,10 @@ and Neovim Sensible.
 
 #### Movement
 
-| Mode   | Key    | Mapping                                        |
-|:-------|:-------|:-----------------------------------------------|
-| Insert | Up     | Go up even when a completion menu is visible   |
-| Insert | Down   | Go down even when a completion menu is visible |
-| Insert | Return | Return even when a completion menu is visible  |
+| Mode   | Key  | Mapping                                        |
+|:-------|:-----|:-----------------------------------------------|
+| Insert | Up   | Go up even when a completion menu is visible   |
+| Insert | Down | Go down even when a completion menu is visible |
 
 ## Installation
 
