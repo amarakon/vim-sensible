@@ -1,7 +1,6 @@
 " Default settings
 set title number relativenumber numberwidth=1 nofoldenable mouse=nvi cursorline
-set tabstop=4 shiftwidth=0 smartindent termbidi colorcolumn=+1
-set termbidi colorcolumn=+1
+set tabstop=4 shiftwidth=0 smartindent termbidi colorcolumn=+1 termbidi
 let &titlestring = "Neovim – %t%( %m%)"
 
 " Global settings
